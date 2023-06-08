@@ -1,5 +1,5 @@
 /* Estilos para los botones */
-.boton {
+.contenedor-botones {
     font-size: 16px;
     color: white;
     background-color: #4CAF50;
@@ -10,18 +10,23 @@
     display: inline-block;
     margin: 10px;
     cursor: pointer;
+    z-index: 2;
   }
   
 
   /* Estilos específicos para cada botón */
   #historia {
-    background-color: #4CAF50;
+    background-color: #000000;
+    color: aliceblue;
     position: relative;
+    top: 30%;
+    left: auto;
+    width: 40%;
     top: 50%;
     transform: translateY(-90%);
     transform: translateX(1000%);
     text-align: center;
-
+    
   }
   
   #caracteristicas {
@@ -38,9 +43,37 @@
   
 
 /* Estilos para la imagen */
-.imagen {
-  display: block; /* Cambia la imagen a un elemento en bloque */
-  margin: 0 auto; /* Centra horizontalmente la imagen */
-  width: 100px; /* Cambia el ancho de la imagen */
+.contenedor-imagenes{
+  position: relative;
+  display: inline-block;
+}
+
+.banner img{
+    position: absolute;
+    top: 0%;
+    left: 13%;
+    z-index: 2;
+    width: 75%; /* Cambia el ancho de la imagen */
+    height: auto; /* Mantiene la relación de aspecto original de la imagen */
+    align-items: center;
+}
+
+.fondo img{
+  position: relative;
+  z-index: 1;
+  width: 100%; /* Cambia el ancho de la imagen */
   height: auto; /* Mantiene la relación de aspecto original de la imagen */
+  align-items: center;
+  display: block;
+}
+
+.banner-botones img{
+  position: absolute;
+  top: 66.7%;
+  left: 12.7%;
+  z-index: 2;
+  width: 75.5%; /* Cambia el ancho de la imagen */
+  height: auto; /* Mantiene la relación de aspecto original de la imagen */
+  align-items: center;
+
 }
