@@ -36,3 +36,11 @@
     background-color: #FF9800;
   }
   
+
+/* Estilos para la imagen */
+.imagen {
+  display: block; /* Cambia la imagen a un elemento en bloque */
+  margin: 0 auto; /* Centra horizontalmente la imagen */
+  width: 100px; /* Cambia el ancho de la imagen */
+  height: auto; /* Mantiene la relación de aspecto original de la imagen */
+}
