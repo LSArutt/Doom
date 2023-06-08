@@ -2,3 +2,4 @@ git status (para actualizar)
 git add . (para agregar todos los cambios)
 git commit -m "mensaje diciendo lo que cambiaste"
 git push (para subir todos los archivos al repositorio)
+git pull(para recibir las actualizaciones de los otros)
