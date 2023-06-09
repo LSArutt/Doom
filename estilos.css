@@ -1,62 +1,43 @@
-/* Estilos para los botones */
-.contenedor-botones {
-    font-size: 16px;
-    color: white;
-    background-color: #4CAF50;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 10px;
-    cursor: pointer;
-    z-index: 2;
-  }
-  
-
-  /* Estilos específicos para cada botón */
-  #historia {
-    background-color: #000000;
-    color: aliceblue;
-    position: relative;
-    top: 30%;
-    left: auto;
-    width: 40%;
-    top: 50%;
-    transform: translateY(-90%);
-    transform: translateX(1000%);
-    text-align: center;
-    
-  }
-  
-  #caracteristicas {
-    background-color: #f44336;
-  }
-  
-  #cronologia {
-    background-color: #008CBA;
-  }
-  
-  #temas {
-    background-color: #FF9800;
-  }
-  
-
 /* Estilos para la imagen */
 .contenedor-imagenes{
   position: relative;
   display: inline-block;
 }
 
-.banner img{
-    position: absolute;
-    top: 0%;
-    left: 13%;
-    z-index: 2;
-    width: 75%; /* Cambia el ancho de la imagen */
-    height: auto; /* Mantiene la relación de aspecto original de la imagen */
-    align-items: center;
+
+
+.logo-doom img{
+  position: absolute;
+  top: 14.5%;
+  left: 31%;
+  z-index: 4;
+  width: 30.5%; /* Cambia el ancho de la imagen */
+  height: auto; /* Mantiene la relación de aspecto original de la imagen */
+  align-items: center;
+
 }
+
+.banner img{
+  position: absolute;
+  top: 0%;
+  left: 13%;
+  z-index: 3;
+  width: 70%; /* Cambia el ancho de la imagen */
+  height: auto; /* Mantiene la relación de aspecto original de la imagen */
+  align-items: center;
+}
+
+.banner-botones img{
+  position: absolute;
+  top: 62.2%;
+  left: 12.7%;
+  z-index: 2;
+  width: 70.5%; /* Cambia el ancho de la imagen */
+  height: auto; /* Mantiene la relación de aspecto original de la imagen */
+  align-items: center;
+
+}
+
 
 .fondo img{
   position: relative;
@@ -67,24 +48,84 @@
   display: block;
 }
 
-.banner-botones img{
-  position: absolute;
-  top: 66.7%;
-  left: 12.7%;
-  z-index: 2;
-  width: 75.5%; /* Cambia el ancho de la imagen */
-  height: auto; /* Mantiene la relación de aspecto original de la imagen */
-  align-items: center;
 
-}
+/* Estilos para los botones */
+.contenedor-botones {
 
-.logo-doom img{
-  position: absolute;
-  top: 14.5%;
-  left: 28.5%;
-  z-index: 3;
-  width: 40.5%; /* Cambia el ancho de la imagen */
-  height: auto; /* Mantiene la relación de aspecto original de la imagen */
-  align-items: center;
+  }
+  
 
-}
+  /* Estilos específicos para cada botón */
+  #historia {
+    background-color:transparent;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    z-index: 5;
+    border: none;
+    cursor: pointer;
+    padding: 0px 5px;
+    margin: 5px;
+    top: -300px;
+    left: -2px;
+  }
+  
+  #caracteristicas {
+    background-color:transparent;
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    width: 10%;
+    height: auto;
+    text-align: center;
+    z-index: 6;
+    border: none;
+    cursor: pointer;
+    padding: 0px 5px;
+    margin: 0px;
+    top: -300px;
+    left: -125px;
+  }
+  
+  #cronologia {
+    background-color:transparent;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    width: 10%;
+    height: auto;
+    text-align: center;
+    z-index: 7;
+    border: none;
+    cursor: pointer;
+    padding: 0px 5px;
+    margin: 0px;
+    top: -300px;
+    left: 5px;
+  }
+  
+  #temas {
+    background-color:transparent;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    width: 10%;
+    height: auto;
+    text-align: center;
+    z-index: 8;
+    border: none;
+    cursor: pointer;
+    padding: 0px 5px;
+    margin: 0px;
+    top: -315px;
+    left: 120px;
+  }
+  
+
