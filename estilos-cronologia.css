@@ -1,0 +1,36 @@
+body {
+    background-color: #000;
+  }
+  
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #000, #FFA500, #FF0000);
+    border: 4px solid #AA0000;
+    font-family: Arial;
+    font-size: 95%;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 9px #AA0000;
+  }
+  
+  .container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .container ul li {
+    text-align: left;
+  }
+  
+  .container ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .container ul li:last-child {
+    text-align: right;
+  }
